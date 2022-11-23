@@ -188,3 +188,14 @@ textures/tools/toolsskip
 	surfaceparm noimpact
 	surfaceparm skip
 }
+
+// SKYBOX
+textures/tools/toolsskybox
+{
+    surfaceparm sky
+}
+
+textures/tools/toolsskybox2d
+{
+    surfaceparm sky2d
+}
