@@ -14,5 +14,6 @@ Download this repo as `.zip` & unzip into your `titanfallonline` or `titanfall2`
  * `textures/tools` holds a mix of source engine & titanfall tool textures  
    Tool textures should not appear in-game, they are used for special materials & triggers
  * `Northstar_example_mod.zip` extracts into `Titanfall2/R2Northstar/mods` & provides in-game textures  
-   Requires an [experimental Northstar build](https://github.com/R2Northstar/NorthstarLauncher/pull/292) that adds `.vmt` loading from disk  
-   You will need to put textures in either `.vpk` or `.rpak` files otherwise; `.rpak` is recommended for public releases, you may find direct `.vmt` easier for development
+   Requires [Northstar 1.11.0 or later](https://github.com/R2Northstar/Northstar/releases/) for `.vmt` & `.vtf` textures
+   Otherwise you will need to put textures in either `.vpk` or `.rpak` files
+   `.rpak` is recommended for public releases, `.vmt` should be easier for testing and quickly iterating
