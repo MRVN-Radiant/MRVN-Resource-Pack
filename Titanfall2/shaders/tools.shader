@@ -193,3 +193,10 @@ textures/tools/toolsskybox2d
 {
     surfaceparm sky2d
 }
+
+textures/tools/toolslightprobevolume
+{
+    qer_trans 0.30
+    surfaceparm nodraw
+    surfaceparm nonsolid
+}
