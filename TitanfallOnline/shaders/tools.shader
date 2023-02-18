@@ -4,192 +4,133 @@
 // NODRAWS
 textures/tools/toolsnodraw
 {
-    surfaceparm nodraw
-    surfaceparm nolightmap
-	surfaceparm nomarks
+    $compileflag nodraw
 }
 
 // CLIPS
 textures/tools/toolsclip
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolsclip_titan
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $contentflag titanclip
+    $compileflag nodraw
 }
 
 textures/tools/toolsplayerclip
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $contentflag playerclip
+    $contentflag noclimb
+    $compileflag nodraw
 }
 
 textures/tools/toolsnpcclip
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $contentflag monsterclip
+    $compileflag nodraw
 }
 
 textures/tools/toolsclip_human
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $contentflag playerclip
+    $contentflag noclimb
+    $compileflag nodraw
 }
 
 textures/tools/toolsclip_human_climbable
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $contentflag playerclip
+    $compileflag nodraw
 }
 
 textures/tools/toolsclip_concrete
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolsclip_metal
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolsclip_wood
 {
-    qer_trans 0.40
-	surfaceparm nodraw
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	surfaceparm trans
-	surfaceparm nomarks
-	surfaceparm noimpact
-	surfaceparm playerclip
+    %trans 0.40
+    $compileflag nodraw
 }
 
 
 // TRIGGERS
 textures/tools/toolstrigger
 {
-    qer_trans 0.50
-	qer_nocarve
-	surfaceparm nodraw
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolstrigger_capturepoint
 {
-    qer_trans 0.50
-	qer_nocarve
-	surfaceparm nodraw
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolstrigger_checkpoint
 {
-    qer_trans 0.50
-	qer_nocarve
-	surfaceparm nodraw
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolstrigger_checkpoint_off
 {
-    qer_trans 0.50
-	qer_nocarve
-	surfaceparm nodraw
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolstrigger_flag
 {
-    qer_trans 0.50
-	qer_nocarve
-	surfaceparm nodraw
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolstrigger_spawn
 {
-    qer_trans 0.50
-	qer_nocarve
-	surfaceparm nodraw
+    %trans 0.40
+    $compileflag nodraw
 }
 
 textures/tools/toolsout_of_bounds
 {
-    qer_trans 0.50
-	qer_nocarve
-	surfaceparm nodraw
+    %trans 0.40
+    $compileflag nodraw
 }
 
 
 // SKIPS
 textures/tools/toolsskip
 {
-	qer_nocarve
-	qer_trans 0.30
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm structural
-	surfaceparm trans
-	surfaceparm noimpact
-	surfaceparm skip
+    %trans 0.40
+    $contentflag nonsolid
+    $compileflag nodraw
 }
 
 // SKYBOX
 textures/tools/toolsskybox
 {
-    surfaceparm sky
+    $surfaceflag sky
+    $compileflag sky
 }
 
 textures/tools/toolsskybox2d
 {
-    surfaceparm sky2d
+    $surfaceflag sky2d
+    $compileflag sky
 }
