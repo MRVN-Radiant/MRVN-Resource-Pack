@@ -1,6 +1,6 @@
 # Blender v3.4.1 OBJ File: 'info_spawnpoint_titan.blend'
 # www.blender.org
-mtllib mp_titan_spawn.mtl
+mtllib mp_titan_spawn_start.mtl
 o ogre_pose_ogre_titan_l_arm_lod0_lod4.001
 v 46.923382 71.840332 -53.571110
 v 45.707333 69.522400 -53.915653
