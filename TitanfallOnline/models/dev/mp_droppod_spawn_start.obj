@@ -1,6 +1,6 @@
 # Blender 3.6.23
 # www.blender.org
-mtllib mp_droppod_spawn.mtl
+mtllib mp_droppod_spawn_start.mtl
 o droppod_fireteam_v_lod3
 v 53.221912 70.778229 -38.295616
 v 53.626492 61.139053 -38.698147
