@@ -95,7 +95,7 @@ brushDef
 }
 // entity 3
 {
-"classname" "info_player_start"
+"classname" "info_spawnpoint_human_start"
 "origin" "-1936 0 304"
 "targetname" "spawn_mil"
 "teamnum" "3"
@@ -114,7 +114,7 @@ brushDef
 }
 // entity 5
 {
-"classname" "info_player_start"
+"classname" "info_spawnpoint_human_start"
 "origin" "1936 0 304"
 "targetname" "spawn_imc"
 "teamnum" "2"
