@@ -77,7 +77,7 @@ brushDef
 }
 // entity 1
 {
-"classname" "info_player_start"
+"classname" "info_spawnpoint_human_start"
 "origin" "-1936 0 304"
 "targetname" "info_player_start_0"
 }
